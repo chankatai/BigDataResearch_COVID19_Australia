@@ -1,0 +1,442 @@
+body{
+  font-family: 'Do Hyeon', sans-serif; /*Set font for every page*/
+  padding: 0;  /*set padding to 0*/
+  margin: 0;  /*set margin to 0*/
+  background-color: #D9FFFF	
+}
+
+a:link{
+  text-decoration: none;  /*set text to no decoration*/
+}
+
+a:visited{
+  color: currentColor;  /*set text to current color when the link has been visited*/
+}
+
+#container{
+  position: relative;  /*set the div position to relative*/
+  width: 100%;  /*set width to 100%*/
+}
+
+#navmain{  /* Set backgound image, width to 100%, height to 622px*/
+  position: static;
+  width: 100%;
+  height: 622px;
+  background-image:url(../images/backgound1.jpg);
+  background-size: cover;
+}
+
+#navbar{  /* Set position to absolute, width to 100%, height to 70px, top padding to 5px, right padding to 100px,  and let the navbar's width and height includ padding and borders*/
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  padding: 5px 100px;
+  box-sizing: border-box;
+  transition: .5s;
+}
+
+
+
+#logo{  /* logo float to the left*/
+  float: left;
+}
+
+#logo img{  /* Set imgage width 100px, height 70px*/
+  width: 80px;
+  height: 70px;
+  transition: .8s;  
+}
+
+#logo img:hover{  /* Set image hover width to 150px, height 90px*/
+  width: 150px;
+  height: 100px;
+}
+
+#welcome{  /* Set div welcome to absolute position, and top position 23% and left position  27% */
+  position: absolute;
+  top: 10%;
+  left: 27%;
+}
+
+#welcome h1{  /* Set font size 48px, text align to center and middle, color to chartreuse*/
+  font-size: 48px; 
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+  color: chartreuse;
+}
+
+#content{  /* Set margin top 0, right 40px*/
+  margin: 0px 40px;
+}
+
+#content h1{  /* Set bottom margin 0px*/
+  margin-bottom: 0px;
+}
+
+#content p{  /*Set left margin 20px, bottom margin 50px, font size 20px*/
+  margin-left: 20px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+#feedback{  /* Set width 100%, height 550px*/
+  width: 100%;
+  height: 550px;
+  background-image: url(png/feedback.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#feedback h1{  /* Set font size 36px, color darkturquoise, position absolute and left position 45%*/
+  font-size: 36px;
+  color: darkturquoise;
+  position: absolute;
+  left: 45%;
+}
+
+#feedbackform{  /* Set font size 18px, color darkorgange, position absolute*/
+  font-size: 18px;
+  color: darkorange;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 25%;
+}
+
+#feedbackform form{
+  width: 600px;
+}
+
+#footer{
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background-color: burlywood;
+}
+
+#footer p{
+  margin: 0px;
+  position: absolute;
+  left: 20%;
+}
+
+#footer a{
+  color: blue;
+  text-decoration: underline;
+}
+
+#top{
+  position: static;
+  width: 100%;
+  height: 150px;
+  background-image: url(png/article-5bd6a9051e6ee.png);
+  background-size: 100%;
+}
+
+#movienav{
+  position: static;
+  width: 100%;
+  height: 150px;
+}
+
+#movienav table{
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 7%;
+  width: 400px;
+  font-size: 12px;
+  color: red;
+  text-decoration: none;
+}
+
+#moviemain{
+  position: static;
+  width: 100%;
+  height: 700px;
+}
+
+#moviemain h1{
+  margin-left: 40%;
+  color: red;
+}
+
+#moviemain table{
+  margin-left: 13%;
+  margin-bottom: 50px;
+}
+
+#moviemain hr{
+  margin-bottom: 50px;
+}
+
+#moviefooter{
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  background-color: burlywood;
+}
+
+#moviefooter p{
+  margin: 0px;
+  position: absolute;
+  left: 20%;
+}
+
+#moviefooter a{
+  color: blue;
+  text-decoration: underline;
+}
+
+#cinemasnav{
+  display: none;
+  position: static;
+  width: 100%;
+  height: 150px;
+}
+
+#cinemasnav table{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 70px;
+  font-size: 12px;
+}
+
+#cinemasnav table a {
+  color: red;
+}
+
+#cinemasnav td{
+  padding-left: 20px;
+}
+
+#movienav table a:hover{
+  color: blue;
+  background-color: deepskyblue;
+  transition: .5s;
+}
+
+#cinemasnav table a:hover{
+  color: blue;
+  background-color: deepskyblue;
+  transition: .5s;
+}
+
+#cinemas{
+  display: none;
+  position: static;
+  width: 100%;
+}
+
+#cinemas h1{
+  margin-left: 40%;
+  color: red;
+  text-decoration: underline;
+}
+
+#hki, kl, nt{
+  width: 100%;
+  position: static;
+}
+
+#hki a:link{
+  color: blue;
+  text-decoration: underline;
+}
+
+#hki a:visited{
+  color: blue;
+  text-decoration: underline;
+}
+
+#hki1 table{
+  margin-left: 28%;
+  padding-bottom: 50px;
+}
+
+#hki2 table{
+  margin-left: 28%;
+  padding-bottom: 50px;
+}
+
+#kl p, nt p, hki p{
+  margin: 0px;
+  padding-left: 20px;
+}
+
+#kl a:link{
+  color: blue;
+  text-decoration: underline;
+}
+
+#kl a:visited{
+  color: blue;
+  text-decoration: underline;
+}
+
+#kl1 table, kl2 table{
+  margin-left: 28%;
+  padding-bottom: 50px;
+}
+
+#nt a:link{
+  color: blue;
+  text-decoration: underline;
+}
+
+#nt a:visited{
+  color: blue;
+  text-decoration: underline;
+}
+
+#nt1 table, nt2 table{
+  margin-left: 28%;
+  padding-bottom: 50px;
+}
+
+#aboutuscontent{
+  position: static;
+  width: 100%;
+  margin-left: 20%;
+}
+
+#aboutuscontent img {  /* Set shadow for image color grey, increase size 0.2 */
+      box-shadow: 50px 50px 50px grey;
+      transform-origin: 50% 50%;
+      transform: scale(0.2) rotate(0deg);
+      transition: all 1s ease-in;
+      transition-property: transform, background-color, opacity;
+}
+    
+#aboutuscontent img:hover {  /* Set background color to pink, give shadow*/
+      background-color: pink;
+      box-shadow: -50px -50px 50px grey;
+      opacity: 0.2;
+      transform: scale(0.5) rotate(1080deg);
+}
+
+#login table{
+  margin-left: 26%;
+}
+
+#login td{
+  padding: 15px;
+}
+
+#login a{
+  color: blue;
+  text-decoration: underline;
+  transition: .5s;
+}
+
+#login a:hover{
+  font-size: 30px;
+  transition: .5s;
+}
+
+#login a:visited{
+  color:blue;
+}
+
+
+
+ul { /* option display */
+        display: flex;
+        float: right;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    ul.drop-down-menu {
+        border: #ccc 1px solid;
+        display: inline-block;
+        font-family: 'Open Sans', Arial, sans-serif;
+        font-size: 13px;
+        
+    }
+
+    ul.drop-down-menu li {
+        position: relative;
+        white-space: nowrap;
+        border-right: #ccc 1px solid;
+    }
+
+    ul.drop-down-menu > li:last-child {
+        border-right: none;
+    }
+
+    ul.drop-down-menu > li {
+        float: left; /* The first option to right*/
+    }
+
+     ul.drop-down-menu a {
+        background-color: #84C1FF;
+        color: #333;
+        display: block;
+        padding: 0 120px;
+        text-decoration: none;
+        line-height: 40px;
+
+    }
+    ul.drop-down-menu a:hover { /* check to change color */
+        background-color: #ef5c28;
+        color: #fff;
+    }
+    ul.drop-down-menu li:hover > a { /* hold the color*/
+        background-color: #ef5c28;
+        color: #fff;
+    }
+
+ul.drop-down-menu ul {
+        border: #ccc 1px solid;
+        position: absolute;
+        z-index: 99;
+        left: -1px;
+        top: 100%;
+       min-width: 180px;
+    }
+
+    ul.drop-down-menu ul li {
+        border-bottom: #ccc 1px solid;
+    }
+
+    ul.drop-down-menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    ul.drop-down-menu ul ul { /*the 2nd and 3rd option setting*/
+        z-index: 999;
+        top: 10px;
+        left: 90%;
+    }
+
+ul.drop-down-menu ul { /*hide the option*/
+        display: none;
+    }
+
+    ul.drop-down-menu li:hover > ul { /* check to option*/
+        display: block;
+    }
+
+  ul.drop-down-menu ul { /*hidden option*/
+        left: 99999px;
+        opacity: 0;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+    }
+
+    ul.drop-down-menu li:hover > ul { /* open the option*/
+        opacity: 1;
+        -webkit-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+        left: -1px;
+        border-right: 5px;
+    }
+
+    ul.drop-down-menu li:hover > ul ul { /* hidden option*/
+        left: 99999px;
+    }
+
+    ul.drop-down-menu ul li:hover > ul { /* open the 2nd*/
+        left: 90%;
+    }

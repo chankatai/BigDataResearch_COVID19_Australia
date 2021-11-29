@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">  
+  <title>dailytelegraph</title>
+</head>
+<body>
+  <div id="container">
+    <div id="navmain">
+      <div id="navbar">
+        <div id="logo">
+            <a href="home"><image src="{{ url_for('static', filename='images/logo.png')}}"></image></a>
+        </div>
+
+
+<ul class="drop-down-menu">
+        <li><a href="home">Home</a>
+        </li>
+        <li><a href="Australia">Australia</a>
+        </li>
+        <li><a href="NewSouthWales">New South Wales</a>
+        <li><a href="Victoria">Victoria</a>
+        </li>
+        <li><a href="#">Sentiment Analysis</a>
+                        <ul>
+                <li><a href="heraldsun">heraldsun</a>
+                </li>
+                            
+                <li><a href="Newsau">Newsau</a>
+                </li>
+                            
+                <li><a href="dailytelegraph">dailytelegraph</a>
+                </li>
+                            
+                <li><a href="Sentiment">All news organization</a>
+                </li>             
+            </ul>
+            
+        </li>
+        <li><a href="data">Data source</a>
+        </li>
+    </ul>
+  
+        </div> 
+      
+      
+       <div id="welcome">
+        <h1>dailyte legraph</h1>
+      </div>  
+    </div> 
+  <h1>dailytelegraph_Polarity</h1>    
+ <img src="{{url_for('static', filename='images/dailytelegraph_Polarity.jpg')}}" /> 
+      
+  <h1>dailytelegraph_Subjective</h1>    
+ <img src="{{url_for('static', filename='images/dailytelegraph_Subjective.jpg')}}" /> 
+      
+   <h1>dailytelegraph's Positive and Negative Pie Chart</h1> 
+ <img src="{{url_for('static', filename='images/dailytelegraph_PositiveNegativePie.jpg')}}" />
+      
+<h1>dailytelegraph_sentimentAnalysis</h1>    
+ <img src="{{url_for('static', filename='images/dailytelegraph_sentimentAnalysis.jpg')}}" />
+      
+        <h1>dailytelegraph_sentimentAnalysis Pie Chart</h1>    
+ <img src="{{url_for('static', filename='images/dailytelegraph_sentimentAnalysisPie.jpg')}}" />    
+      
+      
+      
+    <div id="footer">
+       <DIV style="text-align:center;"><a href="#navbar">Back to top</a></DIV>  
+      </div>
+  </div>
+ {% block content %}
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">  
+  <title>Sentiment</title>
+</head>
+<body>
+  <div id="container">
+    <div id="navmain">
+      <div id="navbar">
+        <div id="logo">
+            <a href="home"><image src="{{ url_for('static', filename='images/logo.png')}}"></image></a>
+        </div>
+
+
+<ul class="drop-down-menu">
+        <li><a href="home">Home</a>
+        </li>
+        <li><a href="Australia">Australia</a>
+        </li>
+        <li><a href="NewSouthWales">New South Wales</a>
+        <li><a href="Victoria">Victoria</a>
+        </li>
+        <li><a href="#">Sentiment Analysis</a>
+                        <ul>
+                <li><a href="heraldsun">heraldsun</a>
+                </li>
+                            
+                <li><a href="Newsau">Newsau</a>
+                </li>
+                            
+                <li><a href="dailytelegraph">dailytelegraph</a>
+                </li>
+                            
+                <li><a href="Sentiment">All news organization</a>
+                </li>             
+            </ul>
+            
+        </li>
+        <li><a href="data">Data source</a>
+        </li>
+    </ul>
+  
+        </div> 
+      
+      
+       <div id="welcome">
+        <h1>Comparison of three different news organizations
+</h1>
+      </div>  
+    </div> 
+  <h1>Three news organizations Polarity</h1>    
+ <img src="{{url_for('static', filename='images/Allnews_Polarity.jpg')}}" /> 
+      
+  <h1>Three news organizations Subjective</h1>    
+ <img src="{{url_for('static', filename='images/Allnews_Subjective.jpg')}}" /> 
+      
+<h1>Three news organizations sentimentAnalysis</h1>    
+ <img src="{{url_for('static', filename='images/All_news_SentimentAnalysis_all.jpg')}}" />
+      
+    <div id="footer">
+       <DIV style="text-align:center;"><a href="#navbar">Back to top</a></DIV>  
+      </div>
+  </div>
+ {% block content %}
+{% endblock %}
+</body>
+</html>

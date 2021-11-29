@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Covid-19 Big Data Research in Australia</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main2.css') }}">
+</head>
+    
+
+    
+<body>
+  <div id="container">
+    <div id="navmain">
+      <div id="navbar">
+        <div id="logo">
+            <a href="home"><image src="{{ url_for('static', filename='images/logo.png')}}"></image></a>
+    
+     </div>    
+
+
+
+
+      </div> 
+<ul class="drop-down-menu">
+        <li><a href="home">Home</a>
+        </li>
+        <li><a href="Australia">Australia</a>
+        </li>
+        <li><a href="NewSouthWales">New South Wales</a>
+        <li><a href="Victoria">Victoria</a>
+        </li>
+        <li><a href="#">Sentiment Analysis</a>
+                        <ul>
+                <li><a href="heraldsun">heraldsun</a>
+                </li>
+                            
+                <li><a href="Newsau">Newsau</a>
+                </li>
+                            
+                <li><a href="dailytelegraph">dailytelegraph</a>
+                </li>
+                            
+                <li><a href="Sentiment">All news organization</a>
+                </li>             
+            </ul>
+            
+        </li>
+        <li><a href="data">Data source</a>
+        </li>
+    </ul>      
+ 
+   
+     
+        
+        
+        
+        
+      <div id="welcome">
+        <h1>Covid-19 Big Data Research in Australia</h1>
+      </div>  
+    </div> 
+  
+      
+    <h1>COVID-19 restrictions update 6 May</h1> 
+    <span style="color:red;"><h2>The following measures will be effective from midday today, 6 May 2021 (enforceable from 5pm) until 12:01am Monday, 10 May for the Greater Sydney region (including Wollongong, Central Coast and Blue Mountains):
+
+visitors to households will be limited to 20 guests – including children
+masks will be compulsory on public transport and in all public indoor venues, such as retail, theatres, hospitals, aged care facilities and for front-of-house hospitality staff (except in a hospitality venue when eating or drinking)
+drinking while standing up at indoor venues will not be allowed
+singing by audiences at indoor shows or by congregants at indoor places of worship will not be allowed
+dancing will not be allowed at indoor hospitality venues or nightclubs however, dancing is allowed at weddings with a strong recommendation that no more than 20 people should be on the dancefloor at any one time
+visitors to aged care facilities will be limited to two people.</h2> </span>
+      
+    <div id="content">
+      <h1>About the COVID-19 of Australia</h1>
+      <p> The first confirmed cases of COVID-19 in Australia were reported in late January 2020. This page provides a number of visual representations of information about COVID-19 in Australia.Our website mainly displays information about New South Wales and Victoria.</p>
+        
+        <p>Current status
+The situation changes often. Stay up to date with the latest information about the spread of COVID-19 and the steps being taken to slow the spread.
+
+Local outbreak information
+Check your local state and territory website for directives, hotspot information and travel restrictions:</p>
+        
+        
+    <h1>New South Wales</h1>
+    <p>Current Alerts</p>
+        As of 3pm on 29 January 2021, the last Local Government Area in NSW, Cumberland, was removed as a COVID-19 affected area. New South Wales currently has no COVID-19 affected areas.
+    <h1>Victoria</h1>
+   <p>A COVID-19 concerns notice is in effect for Victoria. Greater Melbourne has been identified as an affected area and there are places of high concern.
+
+The COVID-19 concerns notice affects anyone
+
+entering NSW on or after 6am Wednesday 12 May who has been in Greater Melbourne in the previous 14 days
+who has entered NSW and has been in Greater Melbourne at a place of high concern (close contact venue or casual contact venue).
+        </p>
+
+    
+    </div>
+      
+    <h1>Official Australian Government Film</h1>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/QAVfYIwyZRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/2WCtGFNENYU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    
+
+    
+    <div id="footer">
+    <DIV style="text-align:center;"><a href="#navbar">Back to top</a></DIV>  
+
+
+    </div>
+    
+  </div>
+{% block content %}
+{% endblock %}
+
+</body>
+</html>
