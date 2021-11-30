@@ -6,18 +6,18 @@ The project made by 4 major part:
 - Web scraping
 - Website Building
 
-Built With
+Built With 
 - Jupyter Notebook
 - MongoDB
 - Tableau
 
-Contact
+Contact 
 Leonard Chan - chankatai1019@gmail.com - LinkedIn: https://www.linkedin.com/in/ka-tai-chan-0a6733213/ 
 
 Project Link: https://github.com/chankatai/BigDataResearch_COVID19_Australia
 
 
-References
+References 
 1. (2021, May 4). https://data.nsw.gov.au/data/datastore/dump/fb95de01-ad82-4716-ab9a-e15cf2c78556?format=json
 2. (2021, May 10). https://www.dhhs.vic.gov.au/ncov-covid-cases-by-lga-source-csv
 3. (2021, May 12). https://www.dhhs.vic.gov.au/ncov-covid-cases-by-age-group-csv
