@@ -1,10 +1,10 @@
 # BigDataResearch_COVID19_Australia
 
 The project made by 4 major part:
--Sentiment Analysis
--Data Visualization
--Web scraping
--Website Building
+- Sentiment Analysis
+- Data Visualization
+- Web scraping
+- Website Building
 
 Built With
 Jupyter Notebook
