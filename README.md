@@ -12,7 +12,8 @@ Built With
 - Tableau
 
 Contact
-Leonard Chan - chankatai1019@gmail.com - LinkedIn: https://www.linkedin.com/in/ka-tai-chan-0a6733213/
+Leonard Chan - chankatai1019@gmail.com - LinkedIn: https://www.linkedin.com/in/ka-tai-chan-0a6733213/ 
+
 Project Link: https://github.com/chankatai/BigDataResearch_COVID19_Australia
 
 
