@@ -7,9 +7,9 @@ The project made by 4 major part:
 - Website Building
 
 Built With
-Jupyter Notebook
-MongoDB
-Tableau
+- Jupyter Notebook
+- MongoDB
+- Tableau
 
 Contact
 Leonard Chan - chankatai1019@gmail.com - LinkedIn: https://www.linkedin.com/in/ka-tai-chan-0a6733213/
